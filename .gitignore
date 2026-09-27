@@ -13,9 +13,6 @@ checkpoints/
 *.pth
 *.pt
 
-# Results
-results/
-
 # Virtual environment
 venv/
 .venv/
