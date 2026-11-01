@@ -11,3 +11,9 @@ __pycache__/
 # Virtual environment
 venv/
 .venv/
+
+# Generated documentation and local caches
+docs/_build/
+.jupyter_cache/
+.jupyter/
+.mplconfig/
