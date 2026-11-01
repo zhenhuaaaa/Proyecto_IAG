@@ -7,7 +7,6 @@ Validated on 1 November 2026 using Python 3.11.7 on CPU.
 - Loaded both supplied final generator checkpoints with strict state-dictionary matching and generated 16 images per model using shared noise.
 - Read the actual checkpoint histories and original eight-row metric CSV. The tutorial explains discrepancies between saved counters and history lengths.
 - Confirmed that all nine copied implementation cells match their corresponding definitions in `main.ipynb`.
-- Passed `python -m unittest discover -s tests -v`. The regression test runs the real notebook export loop and preserves all 256 values per RGB channel. The same test failed before the denormalization correction.
 - Built HTML with `python -m sphinx -W --keep-going -b html docs docs/_build/html`, with no warnings.
 - Checked 189 local HTML links and asset references; all target files exist. The historical notebook figures are embedded as attachments, and MathJax is included locally for offline equations.
 

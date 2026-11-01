@@ -75,7 +75,6 @@ WGAN-GP has better values for these five metrics at the final checkpoint, with a
 | `results/` | Saved sample grids from the experiments |
 | `references/` | Reference implementations, separate from the project's PyTorch notebook |
 | `report/IA_GEN_PROYECTO_FINAL.pdf` | Project manuscript |
-| `tests/test_metric_export.py` | Regression check for normalized-image PNG export |
 
 ## Reproduction notes
 
